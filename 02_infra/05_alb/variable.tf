@@ -10,9 +10,9 @@ variable "ssh_port"{
   default = 22
 }
 
-# variable "vpc_id" {
-#   default = "vpc-02177a7405e00959d"
-# }
+variable "vpc_id" {
+  default = "vpc-02177a7405e00959d"
+}
 
 # variable "ap-northeast-2a"{
 #   default = "subnet-0f02b373f7f78e4a2"
